@@ -1,7 +1,7 @@
 # Recommendations  with IBM project
 
 
-> ### Introduction
+> ### Introduction :
 
 In this project we'll analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles they'll like.
 
@@ -14,7 +14,7 @@ For this project I will be looking at the interactions that users have with arti
 The above dashboard is just showing the newest articles. It could imagine having a recommendation board available here that shows the articles that are most pertinent to a specific user.
 
 
-> ### Libraries
+> ### Libraries :
 	
 * pandas
 	
@@ -30,13 +30,26 @@ The above dashboard is just showing the newest articles. It could imagine having
 	
 * sklearn
 	
-> ### Data
+> ### Data :
 
 * user-item-interactions.csv: Interactions between users and articles.
 
 * articles_community.csv: Contents of articles.
 
-> ### Overview
+> ### Files :
+
+* Recommendations_with_IBM.html : This is the html screenshot of the jupyter notebook 'Recommendations_with_IBM' and contains all the code with its output.
+    
+* Recommendations_with_IBM.ipynb : The jupyter notebook where all the coding has been done.
+
+* project_tests.py : Some tests written by udacity to check the answers to the questions in Recommendation_with_IBM.ipynb.
+
+* top_10.p, top_20.p, top_5.p : Python pickle files for tests used in the notebook.
+
+* user_item_matrix.p : Python pickle file providing data used in making the recommendation model.
+
+
+> ### Overview :
 
 #### I. Exploratory Data Analysis
 
